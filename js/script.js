@@ -22,9 +22,9 @@ $(".search-btn").click(function(e) {
       $('.menu-bars .bar').toggleClass('hide-icon');
       $('.menu-bars .times').toggleClass('hide-icon');
       $(".navgition").toggleClass("reset-left");
-      $(".ser").toggleClass("flex");
+      $(".visit-link").toggleClass("flex" ,1500);
       $(".language-dropdown").toggleClass("visible");
-      $(".search-content").toggleClass("visible");
+      
       $(".language-dropdown").toggleClass("z");
       $("body").toggleClass("overflow");
       $("html").toggleClass("overflow");
