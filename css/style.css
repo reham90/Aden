@@ -648,7 +648,7 @@ gap:25px;
 }
 
 .fixed-nav .nav-header {
-	padding: 10px 0 24px;
+	padding: 10px 0 ;
 }
 
 .fixed-header {
@@ -876,11 +876,7 @@ border-radius: 20px;
 	}
 
 
-	.nav-header {
-		padding: 8px 0;
-		position: relative;
-       justify-content: space-between;
-	}
+
 	.header-icons-section{
 		gap:20px;
 		margin-inline-start: 0;
@@ -1999,6 +1995,14 @@ footer {
 	}
 	.small-banners{
 		flex-wrap: wrap;
+	}
+	.nav-header {
+		padding: 8px 0 24px;
+		position: relative;
+       justify-content: space-between;
+	}
+	.fixed-nav .nav-header{
+		padding: 8px 0 27px;
 	}
 	footer .img-logo{
 		margin: 0 auto;
