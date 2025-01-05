@@ -648,7 +648,7 @@ gap:25px;
 }
 
 .fixed-nav .nav-header {
-	padding: 10px 0;
+	padding: 10px 0 24px;
 }
 
 .fixed-header {
@@ -2003,6 +2003,8 @@ footer {
 	footer .img-logo{
 		margin: 0 auto;
 		width: 101px;
+		position: relative;
+        top: 0;
 	}
 	
 	.banner-block{
