@@ -23,6 +23,7 @@ $(".search-btn").click(function(e) {
       $('.menu-bars .times').toggleClass('hide-icon');
       $(".navgition").toggleClass("reset-left");
       $(".visit-link").toggleClass("flex" ,1500);
+     
       $(".language-dropdown").toggleClass("visible");
       
       $(".language-dropdown").toggleClass("z");
@@ -41,7 +42,7 @@ $(".search-btn").click(function(e) {
  
    //slide down menu
    $(".menu-item-has-children a").click(function(e) {
-         
+    $('.visit-link').toggleClass("push");      
     $(this).siblings(".sub-menu ").slideToggle(400);
   //   $(".menu-item-has-children a").not(this).siblings(".sub-menu ").slideUp(400);
     if ($(window).width() <= 991) {
