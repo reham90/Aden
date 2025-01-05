@@ -961,10 +961,9 @@ border-radius: 20px;
 		
 	}
 	.visit-link{
-		position: absolute;
+		
 		width: 100%;
-		inset-inline-start: 0;
-		top: 400px;
+		
 		height: 50px;
 		border-radius: 25px;
 		display: none;
@@ -1981,9 +1980,7 @@ footer {
 		margin-bottom: 5px;
 	}
 }
-.push {    
-    margin-top: 150px;
-}
+
 
 /*                                   footer                            */
 

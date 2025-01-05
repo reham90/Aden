@@ -42,13 +42,14 @@ $(".search-btn").click(function(e) {
  
    //slide down menu
    $(".menu-item-has-children a").click(function(e) {
-    $('.visit-link').toggleClass("push");      
+          
     $(this).siblings(".sub-menu ").slideToggle(400);
-  //   $(".menu-item-has-children a").not(this).siblings(".sub-menu ").slideUp(400);
+    $(".menu-item-has-children a").not(this).siblings(".sub-menu ").slideUp(400);
     if ($(window).width() <= 991) {
      
         $(this).toggleClass("active");
         $(".menu-item-has-children a").not(this).removeClass("active");
+        
     }
 });
 }
